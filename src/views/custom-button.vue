@@ -1,11 +1,11 @@
 <template>
-    <button type="button">{{ text }}</button>
+  <button type="button">{{ text }}</button>
 </template>
 
 <script>
 export default {
-    data: () => ({
-        text: 'Click me'
-    })
+  data: () => ({
+    text: "don't Click me",
+  }),
 };
 </script>
