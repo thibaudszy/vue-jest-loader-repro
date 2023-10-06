@@ -4,5 +4,12 @@
   "transform": {
     "^.+\\.js$": "babel-jest",
     "^.+\\.vue$": "@vue/vue2-jest"
+  },
+  "globals": {
+    "vue-jest": {
+      "templateCompiler": {
+        "prettify": false
+      }
+    }
   }
 }

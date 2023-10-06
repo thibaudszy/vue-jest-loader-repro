@@ -5,7 +5,7 @@
 <script>
 export default {
   data: () => ({
-    text: "don't Click me",
+    tex: "don't Click me",
   }),
 };
 </script>
